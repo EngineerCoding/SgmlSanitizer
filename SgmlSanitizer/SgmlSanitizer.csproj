@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Wesley Ameling</Authors>
+    <Company />
+    <Description>A sanitizer to remove elements and attributes from SGML based text files, such as HTML and XML. Note that this is a very simple implementation, but by using whitelists and a naïve URL detection implementation XSS may be prevented. Use at your own risk though.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>SGML, HTML, XML, XSS</PackageTags>
+    <RepositoryUrl>https://github.com/EngineerCoding/SgmlSanitizer</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/EngineerCoding/SgmlSanitizer</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xml.SgmlReader" Version="1.8.21" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
