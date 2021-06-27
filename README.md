@@ -1,4 +1,4 @@
-<a href="https://www.nuget.org/packages/Sgm;Sanitizer#">
+<a href="https://www.nuget.org/packages/SgmlSanitizer#">
     <img src="https://img.shields.io/nuget/v/SgmlSanitizer?style=flat-square" alt="Get on NuGet!">
 </a>
 
