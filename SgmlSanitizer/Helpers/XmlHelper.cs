@@ -1,7 +1,7 @@
 ﻿using System.Security;
 using System.Xml;
 
-namespace SgmlSanitizer.Helper
+namespace SgmlSanitizer.Helpers
 {
 	public static class XmlHelper
 	{

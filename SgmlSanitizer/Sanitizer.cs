@@ -1,6 +1,6 @@
 ﻿using Sgml;
 using SgmlSanitizer.Collection;
-using SgmlSanitizer.Helper;
+using SgmlSanitizer.Helpers;
 using System.IO;
 using System.Xml;
 
